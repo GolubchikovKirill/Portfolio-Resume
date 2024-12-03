@@ -1,0 +1,42 @@
+# Лог-файлы
+*.log
+logs/
+*.out
+
+# Файлы настроек среды
+.env
+
+# Кэш и временные файлы
+*.tmp
+*.swp
+*.bak
+*.lock
+
+# Системные файлы macOS
+.DS_Store
+
+# Python-специфичные файлы
+__pycache__/
+*.pyc
+*.pyo
+
+# Node.js (если проект включает JavaScript)
+node_modules/
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.iml
+
+# Сборочные артефакты
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Docker и виртуализация
+docker-compose.override.yml
+*.dockerfile
+*.vagrant
