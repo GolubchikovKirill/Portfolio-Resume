@@ -5,6 +5,7 @@ logs/
 
 # Файлы настроек среды
 .env
+venv
 
 # Кэш и временные файлы
 *.tmp
@@ -20,10 +21,10 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Node.js (если проект включает JavaScript)
+# Node.js
 node_modules/
 
-# IDE и редакторы
+# IDE
 .vscode/
 .idea/
 *.iml

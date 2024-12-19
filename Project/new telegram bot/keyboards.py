@@ -9,7 +9,8 @@ class MainKeyboard:
 
         # Создаем клавиатуру с кнопками
         self.keyboard = ReplyKeyboardMarkup(
-            keyboard=[[self.start_button, self.help_button, 
+            keyboard=[[self.start_button, 
+                       self.help_button, 
                        self.info_button]], 
             resize_keyboard=True
         )
